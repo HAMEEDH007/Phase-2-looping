@@ -2,7 +2,7 @@
 // Check a number is a armstrong number
 public class NBLooping5 {
     public static void main(String[] args) {
-        int number = 0;
+        int number = 153;
         int copy = number;
         int sum =0;
         int count = countDigit.count(number);
@@ -20,10 +20,8 @@ class countDigit{
     public static int count(int n ){
         int count =0;
         while(n >0){
-            int lastDigit = n % 10;
             count++;
             n /=10;
-
         }
         return count;
     }
