@@ -7,7 +7,7 @@ public class NBLooping9 {
         // int sum=0;
         for(int i =0;i<=n;i++){
             System.out.println(a);
-            sum += a;
+            // sum += a;
 
             c = a+b;
             a =b;
