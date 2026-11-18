@@ -1,6 +1,6 @@
 // find HCF (GCD) of two numbers using loops.
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
 
 public class MLPquestion4 {
     public static void main(String[] args) {
